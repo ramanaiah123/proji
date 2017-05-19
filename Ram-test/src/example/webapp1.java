@@ -19,14 +19,14 @@ public class webapp1 extends HttpServlet {
 	         out.println("<body>");
 	         out.println("<h1>Hello, world!</h1>");  // says Hello
 	         // Echo client's request information
-	         out.println("<p>Request URI: " + request.getRequestURI() + "</p>");
+	         out.println("<p>Request URI: " + request.getRequestURI() + "</p>");jjj
 	         out.println("<p>Protocol: " + request.getProtocol() + "</p>");
 	         out.println("<p>PathInfo: " + request.getPathInfo() + "</p>");
 	         out.println("<p>Remote Address: " + request.getRemoteAddr() + "</p>");
 	         // Generate a random number upon each request
 	         out.println("<p>A Random Number: <strong>" + Math.random() + "</strong></p>");
 	         out.println("</body></html>");
-	      } finally {
+	      } finally {xsxsxsxsxsxsx
 	         out.close();  // Always close the output writer
 	         out.close();  // Always close the output writer
 	         ut.close();  // Always close the output writer
