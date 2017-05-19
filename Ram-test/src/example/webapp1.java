@@ -28,6 +28,8 @@ public class webapp1 extends HttpServlet {
 	         out.println("</body></html>");
 	      } finally {
 	         out.close();  // Always close the output writer
+	         out.close();  // Always close the output writer
+	         ut.close();  // Always close the output writer
 	      }
 	   }
 	
