@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch=".." name="origin" sync-j="4"/>
+  <default remote="origin" revision="sez"/>
+
+  <project name="1"/>
+   </manifest>
